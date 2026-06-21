@@ -11,7 +11,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:elemenopyunome/open-infra.git
+    repoURL: git@github.com:harn3ss/open-infra.git
     targetRevision: HEAD
     path: platform/console/manifests
   destination:

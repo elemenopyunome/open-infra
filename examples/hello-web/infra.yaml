@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: hello-web
 spec:
-  image: ghcr.io/elemenopyunome/hello-web   # CI replaces the tag on each push
+  image: ghcr.io/harn3ss/hello-web   # CI replaces the tag on each push
   port: 8080
   scaling: { min: 1, max: 5, targetCPUPercent: 70 }
   domain: hello-web.example                  # dev mode rewrites to sslip.io

@@ -27,7 +27,7 @@ spec:
 
       containers:
         - name: console
-          image: ghcr.io/elemenopyunome/open-infra-console:latest
+          image: ghcr.io/harn3ss/open-infra-console:latest
           imagePullPolicy: Always
           ports:
             - name: http

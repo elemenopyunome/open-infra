@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: elemenopyunome/open-infra/action@v1
+      - uses: harn3ss/open-infra/action@v1
         with:
           manifest: infra.yaml
           registry: ghcr.io

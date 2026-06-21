@@ -234,7 +234,7 @@ RUN "$KUBECTL -n argocd rollout status deploy/argocd-server --timeout=300s || tr
 # ── 4. App-of-apps ───────────────────────────────────────────
 if [ -z "$GITOPS_REPO" ]; then
   WARN "gitops.repoUrl unset — applying the bundled root-app pointed at THIS repo for a local trial."
-  GITOPS_REPO="https://github.com/elemenopyunome/open-infra"
+  GITOPS_REPO="https://github.com/harn3ss/open-infra"
   GITOPS_PATH="platform"
 fi
 LOG "bootstrapping app-of-apps from $GITOPS_REPO ($GITOPS_PATH)…"

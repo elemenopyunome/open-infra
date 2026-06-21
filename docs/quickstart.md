@@ -15,7 +15,7 @@ zero raw Kubernetes authored by you.
 ## 1. Install the platform
 
 ```bash
-git clone https://github.com/elemenopyunome/open-infra
+git clone https://github.com/harn3ss/open-infra
 cd open-infra
 cp config.example.yaml config.yaml
 $EDITOR config.yaml          # at minimum set networking.metallbPool (prod) or leave dev defaults

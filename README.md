@@ -1,8 +1,8 @@
 # open-infra
 
-[![Release](https://img.shields.io/github/v/release/elemenopyunome/open-infra?sort=semver)](https://github.com/elemenopyunome/open-infra/releases)
-[![Build console](https://github.com/elemenopyunome/open-infra/actions/workflows/build-console.yml/badge.svg)](https://github.com/elemenopyunome/open-infra/actions/workflows/build-console.yml)
-[![License: Apache-2.0](https://img.shields.io/github/license/elemenopyunome/open-infra)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/harn3ss/open-infra?sort=semver)](https://github.com/harn3ss/open-infra/releases)
+[![Build console](https://github.com/harn3ss/open-infra/actions/workflows/build-console.yml/badge.svg)](https://github.com/harn3ss/open-infra/actions/workflows/build-console.yml)
+[![License: Apache-2.0](https://img.shields.io/github/license/harn3ss/open-infra)](LICENSE)
 
 > A **free, self-hostable mini-cloud**. Drop one simple `infra.yaml` into your app
 > repo, `git push`, and get an AWS-like managed experience — autoscaling HTTPS
@@ -69,7 +69,7 @@ Full mapping and rationale: [`docs/architecture.md`](docs/architecture.md).
 > [`docs/quickstart.md`](docs/quickstart.md) for the full walkthrough.
 
 ```bash
-git clone https://github.com/elemenopyunome/open-infra
+git clone https://github.com/harn3ss/open-infra
 cd open-infra
 cp config.example.yaml config.yaml     # edit: LAN IP pool, domain, mode
 ./install.sh                            # installs k3s + Argo CD + the platform
