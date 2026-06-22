@@ -1,4 +1,4 @@
-module github.com/elemenopyunome/open-infra/console-api
+module github.com/harn3ss/open-infra/console-api
 
 go 1.25.0
 

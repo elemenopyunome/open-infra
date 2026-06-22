@@ -6,7 +6,7 @@ import (
 	"path"
 	"strings"
 
-	webui "github.com/elemenopyunome/open-infra/console-api"
+	webui "github.com/harn3ss/open-infra/console-api"
 )
 
 // webFS holds the built React SPA, embedded at the module root (see webui.go).

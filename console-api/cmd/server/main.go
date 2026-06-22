@@ -30,10 +30,10 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 
-	"github.com/elemenopyunome/open-infra/console-api/internal/crd"
-	"github.com/elemenopyunome/open-infra/console-api/internal/k8s"
-	"github.com/elemenopyunome/open-infra/console-api/internal/proxy"
-	"github.com/elemenopyunome/open-infra/console-api/internal/watch"
+	"github.com/harn3ss/open-infra/console-api/internal/crd"
+	"github.com/harn3ss/open-infra/console-api/internal/k8s"
+	"github.com/harn3ss/open-infra/console-api/internal/proxy"
+	"github.com/harn3ss/open-infra/console-api/internal/watch"
 )
 
 // version is the build version, overridden at link time via
